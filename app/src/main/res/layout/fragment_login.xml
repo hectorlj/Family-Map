@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fms.dao.UI.LoginPack.loginFragment">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="90dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/host"
+            android:textSize="16sp" />
+
+        <EditText
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hapticFeedbackEnabled="true"
+            android:id="@+id/host_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:inputType="phone"
+            android:singleLine="false"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="90dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/port"
+            android:textSize="16sp"/>
+        <EditText
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hapticFeedbackEnabled="true"
+            android:inputType="phone"
+            android:id="@+id/port_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="90dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/firstName"
+            android:textSize="16sp"/>
+        <EditText
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hapticFeedbackEnabled="true"
+            android:inputType="text"
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="90dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/lastName"
+            android:textSize="16sp"/>
+        <EditText
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hapticFeedbackEnabled="true"
+            android:inputType="text"
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="90dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/username"
+            android:textSize="16sp"/>
+        <EditText
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hapticFeedbackEnabled="true"
+            android:inputType="text"
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="90dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/password"
+            android:textSize="16sp"/>
+        <EditText
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hapticFeedbackEnabled="true"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="90dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/email"
+            android:textSize="16sp"/>
+        <EditText
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:hapticFeedbackEnabled="true"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/gender"
+            android:textSize="16sp"/>
+
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:checked="false"
+                android:text="@string/radio_male"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:checked="false"
+                android:text="@string/radio_female"
+                android:textSize="16sp" tools:targetApi="lollipop"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/register_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_button"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:background="@color/common_google_signin_btn_text_light_default"
+            android:textSize="16sp"/>
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/login_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:background="@color/common_google_signin_btn_text_light_default"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</GridLayout>

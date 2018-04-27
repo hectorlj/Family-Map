@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Family Tree Map</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="title_activity_person">Person Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="host">Host</string>
+    <string name="port">Port</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="gender">Gender</string>
+    <string name="email">E-mail</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="login_button">Sign In</string>
+    <string name="register_button">Register</string>
+    <string name="radio_male">M</string>
+    <string name="radio_female">F</string>
+    <string name="main_header">Family Map</string>
+    <string name="Main_activity">Main Menu</string>
+    <string name="google_maps_key">AIzaSyBndVXeYCpu54TRJq2X6Wui23v7GOX4TeM</string>
+    <string name="empty_toast">Empty Fields</string>
+    <string name="filled_toast">All fields filled</string>
+    <string name="success_toast">Success!</string>
+    <string name="fail_toast">Failed</string>
+    <string name="login_fail_toast">Login failed</string>
+    <string name="register_fail_toast">Registration failed</string>
+    <string name="login_succeed_toast">Login successful!</string>
+    <string name="register_succeed_toast">Registration successful!</string>
+    <string name="family_fetched">Successfully uploaded Ancestors</string>
+    <string name="family_not_fetched">Failed to upload Ancestors</string>
+    <string name="events_fetched">Successfully uploaded Events</string>
+    <string name="events_notFetched">Failed to upload Events</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="Map_activity">Map</string>
+    <string name="settings_activity">Settings</string>
+    <string name="default_map_greeting">Click any point to begin</string>
+    <string name="default_map_two">Adjust your settings up top</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <array name="map_options">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </array>
+    <array name="life_options">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>Yellow</item>
+        <item>White</item>
+    </array>
+    <array name="family_options">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>Yellow</item>
+        <item>White</item>
+    </array>
+    <array name="spouse_options">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Black</item>
+        <item>Yellow</item>
+        <item>White</item>
+    </array>
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="todo">TODO</string>
+    <string name="life_story_lines">Life Story Lines</string>
+    <string name="family_tree_lines">Family Tree Lines</string>
+    <string name="re_sync_data">Re-Sync Data</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="sync_in_progress">Sync in progress</string>
+    <string name="spouse_lines">Spouse Lines</string>
+    <string name="map_type">Map Type</string>
+    <string name="logout">Logout</string>
+    <string name="search_here">Search here</string>
+    <string name="father_s_side">Father\'s Side</string>
+    <string name="male_events">Male Events</string>
+    <string name="mother_s_side">Mother\'s Side</string>
+    <string name="female_events">Female Events</string>
+    <string name="birth_events">Birth Events</string>
+    <string name="baptism_events">Baptism Events</string>
+    <string name="marriage_events">Marriage Events</string>
+    <string name="death_events">Death Events</string>
+</resources>

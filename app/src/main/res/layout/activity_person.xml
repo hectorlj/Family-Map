@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_person"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:nestedScrollingEnabled="true"
+
+    android:paddingBottom="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/fullname_title_personActivity"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:id="@+id/full_name_desc"
+        android:layout_below="@id/fullname_title_personActivity"
+        android:text="Full Name"/>
+    <View
+        android:layout_below="@id/full_name_desc"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/fullname_desc_line"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullname_desc_line"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:id="@+id/gender_person_clicked"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/event_recycler_view"
+        android:id="@+id/parent_recycler_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <View
+        android:layout_below="@id/parent_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/gender_person_clicked"
+        android:id="@+id/event_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_below="@id/event_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>
